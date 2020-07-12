@@ -1,0 +1,16 @@
+id:
+  providerName: wso2apideveloper
+  apiName: petstore
+  version: "1.1"
+description: This is a sample server online store
+type: HTTP
+context: /context
+contextTemplate: /v1/{version}
+availableTiers:
+- name: Unlimited
+- name: Bronze
+status: PUBLISHED
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
